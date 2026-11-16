@@ -11,9 +11,9 @@
     --text: #f7f1ee;
     --muted: #b7aaa6;
     --border: #2e2423;
-    --red: #ff3b30;
-    --red-deep: #d91e18;
-    --yellow: #ffc72c;
+    --red: #38bdf8;
+    --red-deep: #0369a1;
+    --yellow: #a7f3d0;
     --header-h: 64px;
     --sidebar-w: 240px;
 }
@@ -797,4 +797,22 @@ body.sidebar-hidden .main {
         transition: none !important;
         scroll-behavior: auto !important;
     }
+}
+.project-notice {
+    margin: 8px 0 18px;
+    padding: 18px;
+    border: 1px solid var(--red);
+    border-radius: 12px;
+    background: var(--panel);
+}
+.project-notice h1 { font-size: 20px; margin-bottom: 8px; }
+.project-notice p { color: var(--muted); line-height: 1.6; }
+.search-area, .search-box, .search-box input { min-width: 0; }
+.header-left, .header-right { flex-shrink: 0; }
+@media (max-width: 650px) {
+    .logo span { font-size: 15px; }
+    .header-left { gap: 2px; }
+    .menu-btn { width: 30px; }
+    .search-box input { padding: 0 8px; }
+    .search-box button { width: 34px; flex-shrink: 0; }
 }

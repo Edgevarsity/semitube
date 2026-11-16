@@ -172,7 +172,7 @@ if (createBtn && createMenu) {
 
 if (profileBtn) {
     profileBtn.addEventListener("click", () => {
-        alert("Profile Clicked");
+        alert("Student demo only. There is no sign-in or account registration.");
     });
 }
 
@@ -186,7 +186,7 @@ if (notificationBtn) {
             badge.style.display = "none";
         }
 
-        alert("Notifications Opened");
+        alert("These are sample notifications for a student project.");
     });
 }
 
@@ -198,4 +198,4 @@ document.addEventListener("keydown", e => {
     }
 });
 
-console.log("YouTube Clone Loaded Successfully ✅");
+console.log("FrameNest student demo loaded ✅");

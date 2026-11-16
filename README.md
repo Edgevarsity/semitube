@@ -1,6 +1,9 @@
-# Semiyoutube
+# FrameNest
 
-A static YouTube-style interface built with HTML, CSS, and JavaScript.
+An independent student front-end project built with HTML, CSS, and JavaScript.
+Not affiliated with or endorsed by YouTube or Google. No authentication, payments,
+uploads, or account registration are implemented. Search filters local cards;
+video links lead to YouTube.
 
 ## Production
 
